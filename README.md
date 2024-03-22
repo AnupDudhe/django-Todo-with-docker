@@ -40,11 +40,11 @@ nohup python3 manage.py runserver
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
-## Doing this by Docker
+## Doing this by Docker in AWS EC2
 
 Download [Docker](https://docs.docker.com/engine/install/ubuntu/) for Ubuntu. You can check for other OS also.
 
-Git clone the repository in your local host or AWS instance. 
+Git clone the repository in your AWS instance. 
 ```shell
 git clone https://github.com/Vighnesh-99/django-Todo-with-docker.git
 ```
@@ -60,6 +60,6 @@ docker build .
 docker run -d -p 8000:8000 docker_img_id
 ```
 
-Once the docker is running, head over to http://pub_ip:8000 for the App.
+Once the docker container is running, head over to http://pub_ip:8000 of your AWS instance for the App.
 
 Cheers and Happy Coding :)
