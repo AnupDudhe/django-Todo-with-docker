@@ -1,5 +1,5 @@
 # django-todo
-A simple todo app built with django
+A simple todo app built with django.
 
 Reffered git repo : https://github.com/shreys7/django-todo.git
 
