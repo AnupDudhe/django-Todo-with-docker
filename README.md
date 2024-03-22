@@ -48,9 +48,9 @@ Git clone the repository in your local host or AWS instance.
 ```shell
 git clone https://github.com/Vighnesh-99/django-Todo-with-docker.git
 ```
-Before running the docker build command, change the setting.py ALLOWED_HOST :
+Before running the docker build command, change the setting.py ALLOWED_HOST which is present in todoApp dir :
 ```shell
-vim settings.py
+sudo vim settings.py
 # ADD "*" to ALLOWED_HOST = [] in settings.py 
 # EX:- ALLOWED_HOST = ["*"] 
 ```
