@@ -1,4 +1,4 @@
-# django-todo
+# django-todo-App
 A simple todo app built with django.
 
 Reffered git repo : https://github.com/shreys7/django-todo.git
@@ -7,7 +7,7 @@ Reffered git repo : https://github.com/shreys7/django-todo.git
 
 ## Getting Started
 
-## Doing this on Local:
+### Doing this on Local:
 
 Git clone the repo :
 ```shell
@@ -44,7 +44,7 @@ nohup python3 manage.py runserver
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
-## Doing this by Docker in AWS EC2:
+### Doing this by Docker in AWS EC2:
 
 Download [Docker](https://docs.docker.com/engine/install/ubuntu/) for Ubuntu. You can check for other OS also.
 
